@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>simple form</title>
+
+  </head>
+  <!-- thêm thẻ form -->
+<body>
+  <h1 style="background-color: #A0E3FA ;
+            font-family:verdana;">
+            <b>Order Form</b>
+  </h1>
+<form method = "get" action="simpleform.html">
+<!-- thêm các phần từ vào form -->
+<p>What would you like to buy?</p>
+  <!-- Tạo tùy chọn với select … option -->
+  <select name="" id="">
+    <option value="">A</option>
+    <option>B (+ 0.5$)</option>
+    <option>C (+ 0.5$)</option>
+
+  </select>
+
+  <!-- Tạo radio button -->
+  <P>How many would you like to order?</P>
+  <legend>
+  <input type="radio" name="price1">1 - $10 <br>
+  <input type="radio" name="price1">2 - $20 <br>
+  <input type="radio" name="price1">3 - $25 <br>
+  </legend>
+
+  <!-- create customer info: name, first name, email, phone -->
+  <p>Name<span stype="color:red">*</span></p>
+  <input type="text" name = "fname" placeholder="FirstName" size="15"/>
+  <input type="text" name = "lname" placeholder="LastName" size="15"/><br>
+  <p>Email: </p>
+  <input type="text" name = "Email" size="35">
+  <p>Phone Number</p>
+  <input type="number" name = "phone1" size="5"/>-
+  <input type="number" name = "phone2" size="5"/>-
+  <input type="number" name = "phone3" size="5"/><br>
+  <p></p>
+  <!-- Submit -->
+  <input type="submit" value="Gửi thông tin">
+
+</form>
+
+</body>
+
+</html>
